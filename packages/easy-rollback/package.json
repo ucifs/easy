@@ -1,5 +1,5 @@
 {
-  "name": "easy-rollback",
+  "name": "@easy/easy-rollback",
   "version": "1.0.0",
   "description": "git rollback",
   "main": "index.js",

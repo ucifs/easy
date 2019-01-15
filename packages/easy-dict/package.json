@@ -1,5 +1,5 @@
 {
-  "name": "easy-dict",
+  "name": "@easy/easy-dict",
   "version": "1.0.0",
   "description": "a easy-project",
   "main": "index.js",
