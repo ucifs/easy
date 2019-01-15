@@ -25,5 +25,6 @@
     "inquirer": "^5.2.0",
     "progress": "^2.0.0",
     "signale": "^1.0.1"
-  }
+  },
+  "gitHead": "46ccd0a5a5f92f50f654f63e8de97baf891c0899"
 }

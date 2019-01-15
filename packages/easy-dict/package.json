@@ -31,5 +31,6 @@
     "ora": "^3.0.0",
     "progress": "^2.0.0",
     "puppeteer": "^1.6.1"
-  }
+  },
+  "gitHead": "46ccd0a5a5f92f50f654f63e8de97baf891c0899"
 }
