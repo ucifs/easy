@@ -1,6 +1,6 @@
 {
   "name": "easy-rollback",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "git rollback",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "easy-servers",
-  "version": "1.1.4",
+  "version": "1.0.0",
   "description": "A Fast Local Server",
   "main": "index.js",
   "author": "zhaoqize",
@@ -19,7 +19,7 @@
     "chokidar": "^2.0.4",
     "commander": "^2.15.1",
     "connect": "^3.6.6",
-    "easy-rollback": "^1.1.7",
+    "easy-rollback": "^1.0.0",
     "execa": "^0.10.0",
     "faye-websocket": "^0.11.1",
     "inquirer": "^5.2.0",
