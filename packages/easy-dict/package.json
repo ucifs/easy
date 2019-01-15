@@ -1,0 +1,36 @@
+{
+  "name": "easy-dict",
+  "version": "2.1.0",
+  "description": "a easy-project",
+  "main": "index.js",
+  "author": "qize",
+  "keywords": [
+    "easy",
+    "generator",
+    "tpl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoqize/easy-dict.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhaoqize/easy-dict/issues"
+  },
+  "license": "MIT",
+  "bin": {
+    "easy": "bin/index.js"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "execa": "^0.10.0",
+    "inquirer": "^5.2.0",
+    "log4js": "^3.0.3",
+    "ora": "^3.0.0",
+    "progress": "^2.0.0",
+    "puppeteer": "^1.6.1"
+  },
+  "devDependencies": {}
+}
