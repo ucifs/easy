@@ -5,38 +5,38 @@
 0 silly argv   '$0': 'lerna' }
 1 notice cli v3.10.5
 2 verbose rootPath /study/easy
-3 verbose session 5ddb205664f38dd7
+3 verbose session 4567828ef6682ce9
 4 verbose user-agent lerna/3.10.5/node@v8.11.1+x64 (darwin)
-5 verbose git-describe undefined => "v1.0.6-1-ge430906"
-6 silly git-describe parsed => {"lastTagName":"v1.0.6","lastVersion":"v1.0.6","refCount":"1","sha":"e430906","isDirty":false}
+5 verbose git-describe undefined => "v1.0.7-1-g413eda5"
+6 silly git-describe parsed => {"lastTagName":"v1.0.7","lastVersion":"v1.0.7","refCount":"1","sha":"413eda5","isDirty":false}
 7 silly argv { _: [ 'publish' ],
 7 silly argv   registry: 'https://registry.npmjs.org/',
 7 silly argv   composed: 'publish',
 7 silly argv   lernaVersion: '3.10.5' }
 8 verbose rootPath /study/easy
-9 info current version 1.0.6
+9 info current version 1.0.7
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly currentBranch
 13 verbose currentBranch master
 14 silly remoteBranchExists
 15 silly isBehindUpstream
-16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "v1.0.6-1-ge430906" => {"lastTagName":"v1.0.6","lastVersion":"v1.0.6","refCount":"1","sha":"e430906","isDirty":false}
-20 info Looking for changed packages since v1.0.6
-21 silly diffSinceIn v1.0.6 packages/easy-dict
+19 silly git-describe.sync "v1.0.7-1-g413eda5" => {"lastTagName":"v1.0.7","lastVersion":"v1.0.7","refCount":"1","sha":"413eda5","isDirty":false}
+20 info Looking for changed packages since v1.0.7
+21 silly diffSinceIn v1.0.7 packages/easy-dict
 22 silly diff packages/easy-dict/package.json
-23 silly diffSinceIn v1.0.6 packages/easy-rollback
+23 silly diffSinceIn v1.0.7 packages/easy-rollback
 24 silly diff packages/easy-rollback/package.json
-25 silly diffSinceIn v1.0.6 packages/easy-server
+25 silly diffSinceIn v1.0.7 packages/easy-server
 26 silly diff packages/easy-server/package.json
 27 verbose updated @easy/easy-dict
 28 verbose updated @easy/easy-rollback
 29 verbose updated @easy/easy-servers
-30 verbose git-describe undefined => "v1.0.6-1-ge430906"
-31 silly git-describe parsed => {"lastTagName":"v1.0.6","lastVersion":"v1.0.6","refCount":"1","sha":"e430906","isDirty":false}
+30 verbose git-describe undefined => "v1.0.7-1-g413eda5"
+31 silly git-describe parsed => {"lastTagName":"v1.0.7","lastVersion":"v1.0.7","refCount":"1","sha":"413eda5","isDirty":false}
 32 silly batched [ PackageGraphNode {
 32 silly batched     name: '@easy/easy-dict',
 32 silly batched     externalDependencies:
@@ -90,18 +90,18 @@
 34 silly lifecycle No script for "preversion" in "@easy/easy-dict", continuing
 35 silly lifecycle No script for "preversion" in "@easy/easy-rollback", continuing
 36 silly lifecycle No script for "preversion" in "@easy/easy-servers", continuing
-37 silly lifecycle No script for "version" in "@easy/easy-rollback", continuing
-38 silly lifecycle No script for "version" in "@easy/easy-servers", continuing
+37 silly lifecycle No script for "version" in "@easy/easy-servers", continuing
+38 silly lifecycle No script for "version" in "@easy/easy-rollback", continuing
 39 silly lifecycle No script for "version" in "@easy/easy-dict", continuing
 40 silly lifecycle No script for "version" in "root", continuing
-41 silly gitAdd [ '/study/easy/packages/easy-rollback/package.json',
-41 silly gitAdd   '/study/easy/packages/easy-server/package.json',
+41 silly gitAdd [ '/study/easy/packages/easy-server/package.json',
+41 silly gitAdd   '/study/easy/packages/easy-rollback/package.json',
 41 silly gitAdd   '/study/easy/packages/easy-dict/package.json',
 41 silly gitAdd   '/study/easy/lerna.json' ]
-42 silly gitCommit v1.0.7
-43 verbose git [ 'commit', '-m', 'v1.0.7' ]
-44 silly gitTag v1.0.7
-45 verbose git [ 'tag', 'v1.0.7', '-m', 'v1.0.7' ]
+42 silly gitCommit v1.0.8
+43 verbose git [ 'commit', '-m', 'v1.0.8' ]
+44 silly gitTag v1.0.8
+45 verbose git [ 'tag', 'v1.0.8', '-m', 'v1.0.8' ]
 46 silly lifecycle No script for "postversion" in "@easy/easy-dict", continuing
 47 silly lifecycle No script for "postversion" in "@easy/easy-rollback", continuing
 48 silly lifecycle No script for "postversion" in "@easy/easy-servers", continuing
@@ -158,13 +158,13 @@
 53 info publish Publishing packages to npm...
 54 info Verifying npm credentials
 55 verbose Retrieving npm user profile
-56 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1183ms
+56 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1213ms
 57 silly npm profile get received {"tfa":false,"name":"zhaoqize","email":"ko2338792975@163.com","email_verified":true,"created":"2016-08-31T09:28:48.338Z","updated":"2018-02-19T08:16:58.430Z","cidr_whitelist":null,"fullname":"","homepage":"","freenode":"","twitter":"","github":"https://github.com/zhaoqize"}
 58 silly npm whoami received {"username":"zhaoqize"}
 59 silly verifyNpmPackageAccess
-60 http fetch GET 200 https://registry.npmjs.org/-/org/zhaoqize/package?format=cli 276ms
+60 http fetch GET 200 https://registry.npmjs.org/-/org/zhaoqize/package?format=cli 351ms
 61 silly getCurrentSHA
-62 verbose getCurrentSHA 868721624e87b19e91c8f5c698d14b5649c1e116
+62 verbose getCurrentSHA 5b24e710939e44f32b92fb9dff8f509e9fae1cd3
 63 silly lifecycle No script for "prepublish" in "root", continuing
 64 silly lifecycle No script for "prepare" in "root", continuing
 65 silly lifecycle No script for "prepublishOnly" in "root", continuing
@@ -181,8 +181,8 @@
 76 silly lifecycle No script for "prepublishOnly" in "@easy/easy-dict", continuing
 77 silly lifecycle No script for "prepublishOnly" in "@easy/easy-rollback", continuing
 78 silly lifecycle No script for "prepublishOnly" in "@easy/easy-servers", continuing
-79 silly lifecycle No script for "prepack" in "@easy/easy-rollback", continuing
-80 silly lifecycle No script for "prepack" in "@easy/easy-dict", continuing
+79 silly lifecycle No script for "prepack" in "@easy/easy-dict", continuing
+80 silly lifecycle No script for "prepack" in "@easy/easy-rollback", continuing
 81 silly lifecycle No script for "prepack" in "@easy/easy-servers", continuing
 82 silly lifecycle No script for "postpack" in "@easy/easy-rollback", continuing
 83 verbose packed @easy/easy-rollback packages/easy-rollback
@@ -194,7 +194,7 @@
 89 verbose publish @easy/easy-dict
 90 verbose publish @easy/easy-rollback
 91 verbose publish @easy/easy-servers
-92 http fetch PUT 403 https://registry.npmjs.org/@easy%2feasy-rollback 1093ms
+92 http fetch PUT 403 https://registry.npmjs.org/@easy%2feasy-rollback 634ms
 93 error Error: 403 Forbidden - PUT https://registry.npmjs.org/@easy%2feasy-rollback - Forbidden
 93 error     at res.buffer.catch.then.body (/Users/zqz/.nvm/versions/node/v8.11.1/lib/node_modules/lerna/node_modules/npm-registry-fetch/check-response.js:104:15)
 93 error     at <anonymous>
